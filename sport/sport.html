@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lidaz Ydi Rjlih f Mika</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #2a2a72; /* الأزرق الأول كما كان */
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+        }
+        header {
+            background-color: #1a1a5e; /* الأزرق الغامق */
+            padding: 20px;
+            font-size: 36px;
+            font-weight: bold;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            color: white;
+        }
+        .content {
+            margin-top: 100px;
+            padding: 50px;
+            text-align: center;
+            width: 100%;
+            max-width: 800px;
+        }
+        .btn {
+            background-color: #1a1a5e; /* الأزرق الغامق */
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background-color: #004d80; /* تدرج أزرق عند المرور */
+            color: white;
+            transform: scale(1.1);
+        }
+        .btn-line {
+            border-bottom: 2px solid #1a1a5e; /* خط تحت الزر بنفس اللون الأزرق */
+            padding-bottom: 10px;
+        }
+        .logo {
+            width: 150px;
+            margin-top: 20px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        .whatsapp {
+            margin-top: 30px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .whatsapp a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .whatsapp a:hover {
+            color: #1a1a5e; /* الأزرق عند المرور */
+            text-decoration: underline;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .social-icons a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 12px 20px;
+            background-color: #2a2a72; /* الأزرق الأول */
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+            width: 150px;
+            text-align: center;
+            border: 2px solid white;
+        }
+        .social-icons a:hover {
+            background-color: #004d80; /* الأزرق الغامق عند المرور */
+        }
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            header {
+                font-size: 28px;
+                padding: 15px;
+            }
+            .content {
+                padding: 20px;
+                margin-top: 80px;
+            }
+            .logo {
+                width: 120px;
+            }
+            .btn {
+                font-size: 16px;
+            }
+            .social-icons {
+                flex-direction: column;
+                gap: 10px;
+            }
+            .social-icons a {
+                font-size: 14px;
+                padding: 10px;
+                width: 100%;
+            }
+        }
+        /* Footer styles */
+        footer {
+            background-color: #1a1a5e;
+            color: white;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+            font-size: 16px;
+            margin-top: 50px;
+            border-top: 5px solid #ff6f00; /* خط برتقالي أعلى */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Lidaz Ydi Rjlih f Mika
+    </header>
+    <div class="content">
+        <img src="logo.jfif" alt="Team Logo" class="logo">
+        <h1>مرحبا بكم في موقع الفريق</h1>
+        <p>آخر الأخبار والمستجدات هنا</p>
+        <a href="https://www.facebook.com/hajnaciri2019?mibextid=wwXIfr" class="btn btn-line" target="_blank">الصفحة الرسمية للمدرسة</a>
+        <div class="whatsapp">
+            <p>تواصل معنا عبر الواتساب: <a href="https://wa.me/212656674584" target="_blank">اضغط هنا</a></p>
+        </div>
+    </div>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/share/1GZaPGVnPp/?mibextid=wwXIfr" target="_blank">Facebook</a>
+        <a href="https://discord.gg/qvBUtT5N" target="_blank">Discord</a>
+        <a href="https://www.instagram.com/houssam_tequlid?igsh=aDR4NXN0aG02dGFu&utm_source=qr" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com/@houssam_tequlid?_t=ZM-8twEsjgwo7D&_r=1" target="_blank">tiktok</a>
+    </div>
+    <footer>
+        <p>مطور الموقع: <strong> Houssam Tequlid</strong> | حقوق الملكية © 2025</p>
+    </footer>
+</body>
+</html>
