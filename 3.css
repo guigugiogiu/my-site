@@ -1,0 +1,101 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff0f5;
+    color: #4a235a;
+}
+
+/* Header */
+header {
+    background-color: #ff85a2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* Section des produits */
+.product-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 30px;
+    justify-content: center;
+}
+
+/* Carte produit */
+.product {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: 0.3s;
+}
+
+/* Effet hover */
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Image produit */
+.product img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+/* Titre produit */
+h3 {
+    font-size: 20px;
+    color: #d63384;
+    font-weight: bold;
+}
+
+/* Prix */
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff85a2;
+    margin-bottom: 10px;
+}
+
+/* Description */
+.description {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #5d3664;
+    margin-bottom: 10px;
+}
+
+/* Bouton WhatsApp */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #d63384;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #b51772;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #ff85a2;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+}
